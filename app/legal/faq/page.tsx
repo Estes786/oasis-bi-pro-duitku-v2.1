@@ -1,9 +1,20 @@
+'use client'
+
+import { HelpCircle, ChevronDown } from 'lucide-react'
+import { useState } from 'react'
+
 export default function FAQPage() {
   return (
-    <div className="min-h-screen bg-gray-50 py-12">
+    <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 py-12">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h1 className="text-4xl font-bold text-gray-900 mb-4 text-center">Frequently Asked Questions</h1>
-        <p className="text-xl text-gray-600 mb-12 text-center">Temukan jawaban untuk pertanyaan umum tentang OASIS BI PRO</p>
+        <div className="text-center mb-12">
+          <div className="inline-flex items-center justify-center w-16 h-16 bg-primary-600 rounded-full mb-4">
+            <HelpCircle className="w-8 h-8 text-white" />
+          </div>
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">Frequently Asked Questions</h1>
+          <p className="text-xl text-gray-600 mb-2">Temukan jawaban untuk pertanyaan umum tentang OASIS BI PRO</p>
+          <p className="text-gray-500">Tidak menemukan jawaban? Hubungi kami di support@oasisbipro.com</p>
+        </div>
         
         <div className="space-y-6">
           <FAQSection title="🚀 Getting Started">

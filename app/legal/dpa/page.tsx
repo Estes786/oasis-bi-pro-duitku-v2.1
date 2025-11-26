@@ -1,10 +1,19 @@
+'use client'
+
 import Link from "next/link";
+import { FileCheck, Shield } from 'lucide-react';
 
 export default function DPAPage() {
   return (
-    <div className="min-h-screen bg-gray-50 py-12">
+    <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 py-12">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h1 className="text-4xl font-bold text-gray-900 mb-8">Data Processing Agreement (DPA)</h1>
+        <div className="text-center mb-12">
+          <div className="inline-flex items-center justify-center w-16 h-16 bg-primary-600 rounded-full mb-4">
+            <FileCheck className="w-8 h-8 text-white" />
+          </div>
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">Data Processing Agreement (DPA)</h1>
+          <p className="text-lg text-gray-600">Perjanjian pemrosesan data yang mematuhi GDPR dan UU No. 27/2022 Indonesia</p>
+        </div>
         
         <div className="bg-white rounded-xl shadow-md p-8 prose prose-lg max-w-none">
           <p className="text-gray-600 mb-6">

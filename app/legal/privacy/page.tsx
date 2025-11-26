@@ -1,8 +1,18 @@
+'use client'
+
+import { Shield, Lock, Eye, Database, FileText, Mail } from 'lucide-react'
+
 export default function PrivacyPolicyPage() {
   return (
-    <div className="min-h-screen bg-gray-50 py-12">
+    <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 py-12">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h1 className="text-4xl font-bold text-gray-900 mb-8">Privacy Policy</h1>
+        <div className="text-center mb-12">
+          <div className="inline-flex items-center justify-center w-16 h-16 bg-primary-600 rounded-full mb-4">
+            <Shield className="w-8 h-8 text-white" />
+          </div>
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">Privacy Policy</h1>
+          <p className="text-lg text-gray-600">Kami berkomitmen melindungi privasi dan data Anda</p>
+        </div>
         
         <div className="bg-white rounded-xl shadow-md p-8 prose prose-lg max-w-none">
           <p className="text-gray-600 mb-6">
