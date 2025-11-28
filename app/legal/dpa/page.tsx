@@ -18,7 +18,7 @@ export default function DPAPage() {
         <div className="bg-white rounded-xl shadow-md p-8 prose prose-lg max-w-none">
           <p className="text-gray-600 mb-6">
             <strong>Effective Date:</strong> November 15, 2025<br/>
-            <strong>Last Updated:</strong> November 15, 2025
+            <strong>Last Updated:</strong> November 28, 2025
           </p>
 
           <div className="bg-blue-50 border-l-4 border-blue-500 p-6 mb-8">
