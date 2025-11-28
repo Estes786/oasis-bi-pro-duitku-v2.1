@@ -17,7 +17,7 @@ export default function PrivacyPolicyPage() {
         <div className="bg-white rounded-xl shadow-md p-8 prose prose-lg max-w-none">
           <p className="text-gray-600 mb-6">
             <strong>Effective Date:</strong> November 15, 2025<br/>
-            <strong>Last Updated:</strong> November 15, 2025
+            <strong>Last Updated:</strong> November 28, 2025
           </p>
 
           <h2>1. Introduction</h2>
